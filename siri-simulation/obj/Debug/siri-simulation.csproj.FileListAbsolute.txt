@@ -1,0 +1,12 @@
+D:\GitHub\voice-command-operations\siri-simulation\bin\Debug\siri-simulation.exe.config
+D:\GitHub\voice-command-operations\siri-simulation\bin\Debug\siri-simulation.exe
+D:\GitHub\voice-command-operations\siri-simulation\bin\Debug\siri-simulation.pdb
+D:\GitHub\voice-command-operations\siri-simulation\obj\Debug\siri-simulation.csprojAssemblyReference.cache
+D:\GitHub\voice-command-operations\siri-simulation\obj\Debug\Interop.SpeechLib.dll
+D:\GitHub\voice-command-operations\siri-simulation\obj\Debug\siri-simulation.csproj.ResolveComReference.cache
+D:\GitHub\voice-command-operations\siri-simulation\obj\Debug\siri_simulation.Properties.Resources.resources
+D:\GitHub\voice-command-operations\siri-simulation\obj\Debug\siri_simulation.SiriSimulation.resources
+D:\GitHub\voice-command-operations\siri-simulation\obj\Debug\siri-simulation.csproj.GenerateResource.cache
+D:\GitHub\voice-command-operations\siri-simulation\obj\Debug\siri-simulation.csproj.CoreCompileInputs.cache
+D:\GitHub\voice-command-operations\siri-simulation\obj\Debug\siri-simulation.exe
+D:\GitHub\voice-command-operations\siri-simulation\obj\Debug\siri-simulation.pdb
