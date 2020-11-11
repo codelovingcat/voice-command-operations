@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "voice-command-audio", "voic
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "voice-command-development", "voice-command-development", "{6CE47274-6CA9-4AC1-878B-BDD7F46408A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "voice-text-processing-speechLib", "voice-text-processing-speechLib\voice-text-processing-speechLib.csproj", "{370D94EF-4F12-47E7-8E6C-FB32C68E24FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,17 @@ Global
 		{BBB5D909-5879-4CDC-A0C6-E1096B1CEEFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBB5D909-5879-4CDC-A0C6-E1096B1CEEFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBB5D909-5879-4CDC-A0C6-E1096B1CEEFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{370D94EF-4F12-47E7-8E6C-FB32C68E24FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{370D94EF-4F12-47E7-8E6C-FB32C68E24FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{370D94EF-4F12-47E7-8E6C-FB32C68E24FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{370D94EF-4F12-47E7-8E6C-FB32C68E24FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BBB5D909-5879-4CDC-A0C6-E1096B1CEEFC} = {6CE47274-6CA9-4AC1-878B-BDD7F46408A3}
+		{370D94EF-4F12-47E7-8E6C-FB32C68E24FB} = {6CE47274-6CA9-4AC1-878B-BDD7F46408A3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C3647003-CA82-4DC8-AB7E-8583AD9339CF}

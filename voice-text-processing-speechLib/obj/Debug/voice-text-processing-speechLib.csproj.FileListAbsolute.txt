@@ -1,0 +1,12 @@
+D:\GitHub\voice-command-operations\voice-text-processing-speechLib\bin\Debug\voice-text-processing-speechLib.exe.config
+D:\GitHub\voice-command-operations\voice-text-processing-speechLib\bin\Debug\voice-text-processing-speechLib.exe
+D:\GitHub\voice-command-operations\voice-text-processing-speechLib\bin\Debug\voice-text-processing-speechLib.pdb
+D:\GitHub\voice-command-operations\voice-text-processing-speechLib\obj\Debug\voice-text-processing-speechLib.csprojAssemblyReference.cache
+D:\GitHub\voice-command-operations\voice-text-processing-speechLib\obj\Debug\Interop.SpeechLib.dll
+D:\GitHub\voice-command-operations\voice-text-processing-speechLib\obj\Debug\voice-text-processing-speechLib.csproj.ResolveComReference.cache
+D:\GitHub\voice-command-operations\voice-text-processing-speechLib\obj\Debug\voice_text_processing_speechLib.Properties.Resources.resources
+D:\GitHub\voice-command-operations\voice-text-processing-speechLib\obj\Debug\voice_text_processing_speechLib.SpeechLib.resources
+D:\GitHub\voice-command-operations\voice-text-processing-speechLib\obj\Debug\voice-text-processing-speechLib.csproj.GenerateResource.cache
+D:\GitHub\voice-command-operations\voice-text-processing-speechLib\obj\Debug\voice-text-processing-speechLib.csproj.CoreCompileInputs.cache
+D:\GitHub\voice-command-operations\voice-text-processing-speechLib\obj\Debug\voice-text-processing-speechLib.exe
+D:\GitHub\voice-command-operations\voice-text-processing-speechLib\obj\Debug\voice-text-processing-speechLib.pdb
