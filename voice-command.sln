@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "voice-text-processing-speec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "siri-simulation", "siri-simulation\siri-simulation.csproj", "{2CC27E29-C54C-45B8-8AAC-AB97EB730CC3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "machine-learning", "machine-learning", "{C376DC94-F3C0-4CE4-A35B-43E66A0BE9E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "machine-learning-alturos-yolo", "machine-learning-alturos-yolo\machine-learning-alturos-yolo.csproj", "{CB175495-668F-4DC2-80EC-499C857D171D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +33,10 @@ Global
 		{2CC27E29-C54C-45B8-8AAC-AB97EB730CC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CC27E29-C54C-45B8-8AAC-AB97EB730CC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CC27E29-C54C-45B8-8AAC-AB97EB730CC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB175495-668F-4DC2-80EC-499C857D171D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB175495-668F-4DC2-80EC-499C857D171D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB175495-668F-4DC2-80EC-499C857D171D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB175495-668F-4DC2-80EC-499C857D171D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +45,7 @@ Global
 		{BBB5D909-5879-4CDC-A0C6-E1096B1CEEFC} = {6CE47274-6CA9-4AC1-878B-BDD7F46408A3}
 		{370D94EF-4F12-47E7-8E6C-FB32C68E24FB} = {6CE47274-6CA9-4AC1-878B-BDD7F46408A3}
 		{2CC27E29-C54C-45B8-8AAC-AB97EB730CC3} = {6CE47274-6CA9-4AC1-878B-BDD7F46408A3}
+		{CB175495-668F-4DC2-80EC-499C857D171D} = {C376DC94-F3C0-4CE4-A35B-43E66A0BE9E7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C3647003-CA82-4DC8-AB7E-8583AD9339CF}
