@@ -1,0 +1,17 @@
+D:\GitHub\voice-command-operations\webcam-control\bin\Debug\webcam-control.exe.config
+D:\GitHub\voice-command-operations\webcam-control\bin\Debug\webcam-control.exe
+D:\GitHub\voice-command-operations\webcam-control\bin\Debug\webcam-control.pdb
+D:\GitHub\voice-command-operations\webcam-control\bin\Debug\AForge.dll
+D:\GitHub\voice-command-operations\webcam-control\bin\Debug\AForge.Video.DirectShow.dll
+D:\GitHub\voice-command-operations\webcam-control\bin\Debug\AForge.Video.dll
+D:\GitHub\voice-command-operations\webcam-control\bin\Debug\AForge.xml
+D:\GitHub\voice-command-operations\webcam-control\bin\Debug\AForge.Video.xml
+D:\GitHub\voice-command-operations\webcam-control\bin\Debug\AForge.Video.DirectShow.xml
+D:\GitHub\voice-command-operations\webcam-control\obj\Debug\webcam-control.csprojAssemblyReference.cache
+D:\GitHub\voice-command-operations\webcam-control\obj\Debug\webcam_control.Properties.Resources.resources
+D:\GitHub\voice-command-operations\webcam-control\obj\Debug\webcam-control.csproj.GenerateResource.cache
+D:\GitHub\voice-command-operations\webcam-control\obj\Debug\webcam-control.csproj.CoreCompileInputs.cache
+D:\GitHub\voice-command-operations\webcam-control\obj\Debug\webcam-control.csproj.CopyComplete
+D:\GitHub\voice-command-operations\webcam-control\obj\Debug\webcam-control.exe
+D:\GitHub\voice-command-operations\webcam-control\obj\Debug\webcam-control.pdb
+D:\GitHub\voice-command-operations\webcam-control\obj\Debug\webcam_control.WebcamControl.resources
