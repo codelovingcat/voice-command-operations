@@ -1,0 +1,12 @@
+D:\GitHub\voice-command-operations\voice-command\bin\Debug\voice-command.exe.config
+D:\GitHub\voice-command-operations\voice-command\bin\Debug\voice-command.exe
+D:\GitHub\voice-command-operations\voice-command\bin\Debug\voice-command.pdb
+D:\GitHub\voice-command-operations\voice-command\obj\Debug\voice-command-audio.csprojAssemblyReference.cache
+D:\GitHub\voice-command-operations\voice-command\obj\Debug\Interop.SpeechLib.dll
+D:\GitHub\voice-command-operations\voice-command\obj\Debug\voice-command-audio.csproj.ResolveComReference.cache
+D:\GitHub\voice-command-operations\voice-command\obj\Debug\voice_command.Audio.resources
+D:\GitHub\voice-command-operations\voice-command\obj\Debug\voice_command.Properties.Resources.resources
+D:\GitHub\voice-command-operations\voice-command\obj\Debug\voice-command-audio.csproj.GenerateResource.cache
+D:\GitHub\voice-command-operations\voice-command\obj\Debug\voice-command-audio.csproj.CoreCompileInputs.cache
+D:\GitHub\voice-command-operations\voice-command\obj\Debug\voice-command.exe
+D:\GitHub\voice-command-operations\voice-command\obj\Debug\voice-command.pdb
