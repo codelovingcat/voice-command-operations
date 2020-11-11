@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SiriSimulation));
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.lblAnswear = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -99,6 +100,7 @@
             // 
             // richTextBox1
             // 
+            this.richTextBox1.Font = new System.Drawing.Font("Minion Pro SmBd", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.richTextBox1.Location = new System.Drawing.Point(12, 135);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(788, 58);
@@ -147,6 +149,7 @@
             this.Controls.Add(this.lblAnswear);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnSpeak);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "SiriSimulation";
             this.Text = "C# Similasyon";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
