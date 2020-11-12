@@ -19,7 +19,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "image-processing", "image-p
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webcam-control", "webcam-control\webcam-control.csproj", "{BEDB6F55-88C2-4B15-B469-4AC5FA1EC9EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scanning-QRcode-webcam", "scanning-QRcode-webcam\scanning-QRcode-webcam.csproj", "{CA557254-1CFD-466D-A9EA-44D661135850}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scanning-QRcodeBarcode-webcam", "scanning-QRcode-webcam\scanning-QRcodeBarcode-webcam.csproj", "{CA557254-1CFD-466D-A9EA-44D661135850}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

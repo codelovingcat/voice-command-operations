@@ -43,9 +43,9 @@
             // 
             this.btnCatch.BackColor = System.Drawing.Color.Lavender;
             this.btnCatch.Font = new System.Drawing.Font("Minion Pro SmBd", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnCatch.Location = new System.Drawing.Point(470, 21);
+            this.btnCatch.Location = new System.Drawing.Point(469, 64);
             this.btnCatch.Name = "btnCatch";
-            this.btnCatch.Size = new System.Drawing.Size(107, 33);
+            this.btnCatch.Size = new System.Drawing.Size(107, 52);
             this.btnCatch.TabIndex = 9;
             this.btnCatch.Text = "Yakala";
             this.btnCatch.UseVisualStyleBackColor = false;
@@ -58,7 +58,7 @@
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(88, 24);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(258, 30);
+            this.comboBox1.Size = new System.Drawing.Size(488, 30);
             this.comboBox1.TabIndex = 8;
             // 
             // pictureBox1
@@ -66,7 +66,7 @@
             this.pictureBox1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.pictureBox1.Location = new System.Drawing.Point(12, 64);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(344, 323);
+            this.pictureBox1.Size = new System.Drawing.Size(344, 298);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
@@ -85,9 +85,9 @@
             // 
             this.btnWebCame.BackColor = System.Drawing.Color.Thistle;
             this.btnWebCame.Font = new System.Drawing.Font("Minion Pro SmBd", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnWebCame.Location = new System.Drawing.Point(363, 23);
+            this.btnWebCame.Location = new System.Drawing.Point(362, 64);
             this.btnWebCame.Name = "btnWebCame";
-            this.btnWebCame.Size = new System.Drawing.Size(101, 33);
+            this.btnWebCame.Size = new System.Drawing.Size(101, 52);
             this.btnWebCame.TabIndex = 5;
             this.btnWebCame.Text = "Kamera Aç";
             this.btnWebCame.UseVisualStyleBackColor = false;
@@ -96,9 +96,9 @@
             // richTextBox1
             // 
             this.richTextBox1.BackColor = System.Drawing.SystemColors.Menu;
-            this.richTextBox1.Location = new System.Drawing.Point(363, 64);
+            this.richTextBox1.Location = new System.Drawing.Point(362, 122);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(214, 167);
+            this.richTextBox1.Size = new System.Drawing.Size(214, 240);
             this.richTextBox1.TabIndex = 10;
             this.richTextBox1.Text = "";
             // 
@@ -111,7 +111,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(589, 426);
+            this.ClientSize = new System.Drawing.Size(589, 390);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.btnCatch);
             this.Controls.Add(this.comboBox1);
