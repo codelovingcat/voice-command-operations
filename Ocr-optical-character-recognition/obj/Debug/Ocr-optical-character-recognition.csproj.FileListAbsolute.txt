@@ -1,0 +1,14 @@
+D:\GitHub\voice-command-operations\Ocr-optical-character-recognition\obj\Debug\Ocr-optical-character-recognition.csprojAssemblyReference.cache
+D:\GitHub\voice-command-operations\Ocr-optical-character-recognition\obj\Debug\Ocr_optical_character_recognition.OpticalCharacterRecognition.resources
+D:\GitHub\voice-command-operations\Ocr-optical-character-recognition\obj\Debug\Ocr_optical_character_recognition.Properties.Resources.resources
+D:\GitHub\voice-command-operations\Ocr-optical-character-recognition\obj\Debug\Ocr-optical-character-recognition.csproj.GenerateResource.cache
+D:\GitHub\voice-command-operations\Ocr-optical-character-recognition\obj\Debug\Ocr-optical-character-recognition.csproj.CoreCompileInputs.cache
+D:\GitHub\voice-command-operations\Ocr-optical-character-recognition\bin\Debug\Ocr-optical-character-recognition.exe.config
+D:\GitHub\voice-command-operations\Ocr-optical-character-recognition\bin\Debug\Ocr-optical-character-recognition.exe
+D:\GitHub\voice-command-operations\Ocr-optical-character-recognition\bin\Debug\Ocr-optical-character-recognition.pdb
+D:\GitHub\voice-command-operations\Ocr-optical-character-recognition\bin\Debug\IronOcr.dll
+D:\GitHub\voice-command-operations\Ocr-optical-character-recognition\obj\Debug\Ocr-optical-character-recognition.csproj.CopyComplete
+D:\GitHub\voice-command-operations\Ocr-optical-character-recognition\obj\Debug\Ocr-optical-character-recognition.exe
+D:\GitHub\voice-command-operations\Ocr-optical-character-recognition\obj\Debug\Ocr-optical-character-recognition.pdb
+D:\GitHub\voice-command-operations\Ocr-optical-character-recognition\bin\Debug\itextsharp.dll
+D:\GitHub\voice-command-operations\Ocr-optical-character-recognition\bin\Debug\itextsharp.xml
