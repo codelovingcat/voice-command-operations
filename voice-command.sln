@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webcam-control", "webcam-co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scanning-QRcodeBarcode-webcam", "scanning-QRcode-webcam\scanning-QRcodeBarcode-webcam.csproj", "{CA557254-1CFD-466D-A9EA-44D661135850}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "desktop-development", "desktop-development", "{D6CCBE7E-0079-44CB-AD5A-99CF15CA211C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "live-chart-geo-map", "live-chart-geo-map\live-chart-geo-map.csproj", "{EF94DADC-BEE7-414E-A767-D64978DAC6A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,10 @@ Global
 		{CA557254-1CFD-466D-A9EA-44D661135850}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA557254-1CFD-466D-A9EA-44D661135850}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA557254-1CFD-466D-A9EA-44D661135850}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF94DADC-BEE7-414E-A767-D64978DAC6A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF94DADC-BEE7-414E-A767-D64978DAC6A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF94DADC-BEE7-414E-A767-D64978DAC6A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF94DADC-BEE7-414E-A767-D64978DAC6A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +70,7 @@ Global
 		{CB175495-668F-4DC2-80EC-499C857D171D} = {C376DC94-F3C0-4CE4-A35B-43E66A0BE9E7}
 		{BEDB6F55-88C2-4B15-B469-4AC5FA1EC9EA} = {74614A87-9C68-4885-A8F7-8C494DD4693D}
 		{CA557254-1CFD-466D-A9EA-44D661135850} = {74614A87-9C68-4885-A8F7-8C494DD4693D}
+		{EF94DADC-BEE7-414E-A767-D64978DAC6A3} = {D6CCBE7E-0079-44CB-AD5A-99CF15CA211C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C3647003-CA82-4DC8-AB7E-8583AD9339CF}
