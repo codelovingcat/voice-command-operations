@@ -1,0 +1,16 @@
+D:\GitHub\voice-command-operations\ocr-library\bin\Debug\ocr-library.exe.config
+D:\GitHub\voice-command-operations\ocr-library\bin\Debug\ocr-library.pdb
+D:\GitHub\voice-command-operations\ocr-library\obj\Debug\ocr-library.csprojAssemblyReference.cache
+D:\GitHub\voice-command-operations\ocr-library\obj\Debug\ocr_library.Ocr.resources
+D:\GitHub\voice-command-operations\ocr-library\obj\Debug\ocr_library.Properties.Resources.resources
+D:\GitHub\voice-command-operations\ocr-library\obj\Debug\ocr-library.csproj.GenerateResource.cache
+D:\GitHub\voice-command-operations\ocr-library\obj\Debug\ocr-library.csproj.CoreCompileInputs.cache
+D:\GitHub\voice-command-operations\ocr-library\obj\Debug\ocr-library.exe
+D:\GitHub\voice-command-operations\ocr-library\obj\Debug\ocr-library.pdb
+D:\GitHub\voice-command-operations\ocr-library\obj\Debug\ocr-library.csproj.CopyComplete
+D:\GitHub\voice-command-operations\ocr-library\bin\Debug\x86\liblept1753.dll
+D:\GitHub\voice-command-operations\ocr-library\bin\Debug\x86\libtesseract3052.dll
+D:\GitHub\voice-command-operations\ocr-library\bin\Debug\x64\liblept1753.dll
+D:\GitHub\voice-command-operations\ocr-library\bin\Debug\x64\libtesseract3052.dll
+D:\GitHub\voice-command-operations\ocr-library\bin\Debug\ocr-library.exe
+D:\GitHub\voice-command-operations\ocr-library\bin\Debug\Tesseract.dll

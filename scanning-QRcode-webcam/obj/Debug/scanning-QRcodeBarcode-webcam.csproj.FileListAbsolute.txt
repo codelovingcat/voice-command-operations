@@ -19,3 +19,11 @@ D:\GitHub\voice-command-operations\scanning-QRcode-webcam\obj\Debug\scanning-QRc
 D:\GitHub\voice-command-operations\scanning-QRcode-webcam\obj\Debug\scanning-QRcodeBarcode-webcam.csproj.CopyComplete
 D:\GitHub\voice-command-operations\scanning-QRcode-webcam\obj\Debug\scanning-QRcode-webcam.exe
 D:\GitHub\voice-command-operations\scanning-QRcode-webcam\obj\Debug\scanning-QRcode-webcam.pdb
+D:\GitHub\voice-command-operations\scanning-QRcode-webcam\bin\Debug\x86\liblept1753.dll
+D:\GitHub\voice-command-operations\scanning-QRcode-webcam\bin\Debug\x86\libtesseract3052.dll
+D:\GitHub\voice-command-operations\scanning-QRcode-webcam\bin\Debug\x64\liblept1753.dll
+D:\GitHub\voice-command-operations\scanning-QRcode-webcam\bin\Debug\x64\libtesseract3052.dll
+D:\GitHub\voice-command-operations\scanning-QRcode-webcam\bin\Debug\BouncyCastle.Crypto.dll
+D:\GitHub\voice-command-operations\scanning-QRcode-webcam\bin\Debug\itextsharp.dll
+D:\GitHub\voice-command-operations\scanning-QRcode-webcam\bin\Debug\Tesseract.dll
+D:\GitHub\voice-command-operations\scanning-QRcode-webcam\bin\Debug\itextsharp.xml

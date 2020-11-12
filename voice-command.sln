@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "live-chart-geo-map", "live-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ocr-optical-character-recognition", "Ocr-optical-character-recognition\Ocr-optical-character-recognition.csproj", "{1E59BAA1-A9DB-42C4-A360-21228F9373A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ocr-library", "ocr-library\ocr-library.csproj", "{75D20467-67FC-4769-9441-8D7F39C490DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +67,10 @@ Global
 		{1E59BAA1-A9DB-42C4-A360-21228F9373A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E59BAA1-A9DB-42C4-A360-21228F9373A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E59BAA1-A9DB-42C4-A360-21228F9373A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75D20467-67FC-4769-9441-8D7F39C490DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75D20467-67FC-4769-9441-8D7F39C490DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75D20467-67FC-4769-9441-8D7F39C490DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75D20467-67FC-4769-9441-8D7F39C490DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,6 +84,7 @@ Global
 		{CA557254-1CFD-466D-A9EA-44D661135850} = {74614A87-9C68-4885-A8F7-8C494DD4693D}
 		{EF94DADC-BEE7-414E-A767-D64978DAC6A3} = {D6CCBE7E-0079-44CB-AD5A-99CF15CA211C}
 		{1E59BAA1-A9DB-42C4-A360-21228F9373A9} = {74614A87-9C68-4885-A8F7-8C494DD4693D}
+		{75D20467-67FC-4769-9441-8D7F39C490DF} = {74614A87-9C68-4885-A8F7-8C494DD4693D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C3647003-CA82-4DC8-AB7E-8583AD9339CF}
