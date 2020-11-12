@@ -1,0 +1,17 @@
+D:\GitHub\voice-command-operations\voice-asist-user-interface\bin\Debug\voice-asist-user-interface.exe.config
+D:\GitHub\voice-command-operations\voice-asist-user-interface\bin\Debug\voice-asist-user-interface.exe
+D:\GitHub\voice-command-operations\voice-asist-user-interface\bin\Debug\voice-asist-user-interface.pdb
+D:\GitHub\voice-command-operations\voice-asist-user-interface\obj\Debug\voice-asist-user-interface.csprojAssemblyReference.cache
+D:\GitHub\voice-command-operations\voice-asist-user-interface\obj\Debug\Interop.SpeechLib.dll
+D:\GitHub\voice-command-operations\voice-asist-user-interface\obj\Debug\voice-asist-user-interface.csproj.ResolveComReference.cache
+D:\GitHub\voice-command-operations\voice-asist-user-interface\obj\Debug\voice_asist_user_interface.VoiceAsist.resources
+D:\GitHub\voice-command-operations\voice-asist-user-interface\obj\Debug\voice_asist_user_interface.Properties.Resources.resources
+D:\GitHub\voice-command-operations\voice-asist-user-interface\obj\Debug\voice-asist-user-interface.csproj.GenerateResource.cache
+D:\GitHub\voice-command-operations\voice-asist-user-interface\obj\Debug\voice-asist-user-interface.csproj.CoreCompileInputs.cache
+D:\GitHub\voice-command-operations\voice-asist-user-interface\obj\Debug\voice-asist-user-interface.exe
+D:\GitHub\voice-command-operations\voice-asist-user-interface\obj\Debug\voice-asist-user-interface.pdb
+D:\GitHub\voice-command-operations\voice-asist-user-interface\bin\Debug\EntityFramework.dll
+D:\GitHub\voice-command-operations\voice-asist-user-interface\bin\Debug\EntityFramework.SqlServer.dll
+D:\GitHub\voice-command-operations\voice-asist-user-interface\bin\Debug\EntityFramework.xml
+D:\GitHub\voice-command-operations\voice-asist-user-interface\bin\Debug\EntityFramework.SqlServer.xml
+D:\GitHub\voice-command-operations\voice-asist-user-interface\obj\Debug\voice-asist-user-interface.csproj.CopyComplete
