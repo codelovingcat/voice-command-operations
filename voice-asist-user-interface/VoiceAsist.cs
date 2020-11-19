@@ -20,6 +20,20 @@ namespace voice_asist_user_interface
             var products = entities.Products.ToList();
             dataGridView1.DataSource = products;
         }
+        void colorMethod()
+        {
+            textBoxProductName.BackColor = Color.DarkSeaGreen;
+            textBoxCategoryID.BackColor = Color.DarkSeaGreen;
+            textBoxDiscontinued.BackColor = Color.DarkSeaGreen;
+            textBoxQuantityPerUnit.BackColor = Color.DarkSeaGreen;
+            textBoxReorderLevel.BackColor = Color.DarkSeaGreen;
+            textBoxSupplierID.BackColor = Color.DarkSeaGreen;
+            textBoxUnitPrice.BackColor = Color.DarkSeaGreen;
+            textBoxUnitsInStock.BackColor = Color.DarkSeaGreen;
+            textBoxUnitsOnOrder.BackColor = Color.DarkSeaGreen;
+            maskedTextBox1.BackColor = Color.DarkSeaGreen;
+            comboBox1.BackColor = Color.DarkSeaGreen;
+        }
         void enable()
         {
             textBoxCategoryID.Enabled = false;
@@ -31,6 +45,8 @@ namespace voice_asist_user_interface
             textBoxUnitPrice.Enabled = false;
             textBoxUnitsInStock.Enabled = false;
             textBoxUnitsOnOrder.Enabled = false;
+            maskedTextBox1.Enabled = false;
+            comboBox1.Enabled = false;
         }
         public VoiceAsist()
         {
@@ -68,26 +84,129 @@ namespace voice_asist_user_interface
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
-            if (textBoxProductName.BackColor == Color.DarkSeaGreen)
+            if (textBoxProductName.BackColor == Color.DarkSeaGreen && textBoxProductName.Enabled == true)
             {
                 textBoxProductName.Text = richTextBox1.Text;
+                enable();
+                colorMethod();
             }
-
-            if (richTextBox1.Text=="Hi" || richTextBox1.Text=="Hello")
+            if (richTextBox1.Text == "Add" || richTextBox1.Text == "Add to" || richTextBox1.Text == "Add the")
+            {
+                Products products = new Products();
+                products.ProductName = textBoxProductName.Text;
+                products.QuantityPerUnit = textBoxQuantityPerUnit.Text;
+                products.SupplierID = Convert.ToInt32(textBoxSupplierID.Text);
+                products.UnitPrice = Convert.ToDecimal(textBoxUnitPrice.Text);
+                products.ReorderLevel = Convert.ToSByte(textBoxUnitPrice.Text);
+                products.UnitsInStock = Convert.ToSByte(textBoxUnitsInStock.Text);
+                products.UnitsOnOrder = Convert.ToSByte(textBoxUnitsOnOrder.Text);
+                //products.Dates = Convert.ToDateTime(maskedTextBox1.Text);
+                //products.Status = true;
+                lblPleaseWait.Text = "Products saved in Northwind Database";
+            }
+            if (textBoxUnitPrice.BackColor == Color.DarkSeaGreen && textBoxUnitPrice.Enabled == true)
+            {
+                textBoxUnitPrice.Text = richTextBox1.Text;
+                enable();
+                colorMethod();
+            }
+            if (richTextBox1.Text == "Hi" || richTextBox1.Text == "Hello")
             {
                 ProductList();
             }
-            if (richTextBox1.Text == "Product name")
+            if (richTextBox1.Text == "Product name" || richTextBox1.Text == "53")
             {
                 textBoxProductName.Focus();
-                textBoxProductName.BackColor = Color.DarkSeaGreen;
-                
+                enable();
+                colorMethod();
+
             }
-            if (richTextBox1.Text=="Exit" || richTextBox1.Text == "Exits")
+            if (richTextBox1.Text == "Stock" || richTextBox1.Text == "Number")
             {
+                textBoxUnitsInStock.Focus();
+                enable();
+                colorMethod();
+
+            }
+            if (richTextBox1.Text == "By price" || richTextBox1.Text == "price")
+            {
+                textBoxUnitPrice.Focus();
+                enable();
+                colorMethod();
+
+            }
+            if (richTextBox1.Text == "Quantity Unit" || richTextBox1.Text == "Unit")
+            {
+                textBoxQuantityPerUnit.Focus();
+                enable();
+                colorMethod();
+
+            }
+            if (richTextBox1.Text == "Category id" || richTextBox1.Text == "id")
+            {
+                textBoxCategoryID.Focus();
+                enable();
+                colorMethod();
+
+            }
+            if (richTextBox1.Text == "Discontinued" || richTextBox1.Text == "Discont")
+            {
+                textBoxDiscontinued.Focus();
+                enable();
+                colorMethod();
+
+            }
+            if (richTextBox1.Text == "Supplier" || richTextBox1.Text == "Supp")
+            {
+                textBoxSupplierID.Focus();
+                enable();
+                colorMethod();
+
+            }
+            if (richTextBox1.Text == "Level" || richTextBox1.Text == "Reorder")
+            {
+                textBoxReorderLevel.Focus();
+                enable();
+                colorMethod();
+
+            }
+            if (richTextBox1.Text == "Order" || richTextBox1.Text == "Unit")
+            {
+                textBoxUnitsOnOrder.Focus();
+                enable();
+                colorMethod();
+
+            }
+            if (richTextBox1.Text == "Date" || richTextBox1.Text == "Day")
+            {
+                maskedTextBox1.Focus();
+                enable();
+                colorMethod();
+
+            }
+            if (richTextBox1.Text == "Date" || richTextBox1.Text == "Day")
+            {
+                maskedTextBox1.Focus();
+                maskedTextBox1.Text = DateTime.Now.ToShortDateString();
+                enable();
+                colorMethod();
+
+            }
+            if (richTextBox1.Text == "State" || richTextBox1.Text == "Status")
+            {
+                comboBox1.Focus();
+                comboBox1.Text = "Active";
+                enable();
+                colorMethod();
+
+            }
+            if (richTextBox1.Text == "Exit" || richTextBox1.Text == "Exits")
+            {
+                timer1.Stop();
                 Application.Exit();
             }
-            if (richTextBox1.Text=="Paint")
+
+            if (richTextBox1.Text == "Paint")
             {
                 System.Diagnostics.Process.Start("MsPaint");
             }
@@ -95,12 +214,53 @@ namespace voice_asist_user_interface
             {
                 System.Diagnostics.Process.Start("devenv.exe");
             }
-            
+
         }
 
         private void VoiceAsist_Load(object sender, EventArgs e)
         {
             enable();
+            timer1.Start();
+        }
+
+        private void maskedTextBox1_BackColorChanged(object sender, EventArgs e)
+        {
+            if (maskedTextBox1.BackColor == Color.DarkSeaGreen)
+            {
+                maskedTextBox1.Text = DateTime.Now.ToString("dd.mm.yyyy");
+            }
+        }
+
+        private void comboBox1_BackColorChanged(object sender, EventArgs e)
+        {
+            if (comboBox1.BackColor == Color.DarkSeaGreen)
+            {
+                comboBox1.Text = ("Active");
+            }
+        }
+
+        private void lblPleaseWait_TextChanged(object sender, EventArgs e)
+        {
+            SpVoice spVoice = new SpVoice();
+            spVoice.Speak(lblPleaseWait.Text);
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            SpeechRecognitionEngine speech = new SpeechRecognitionEngine();
+            Grammar grammar = new DictationGrammar();
+            speech.LoadGrammar(grammar);
+            try
+            {
+                btnStartSpeak.Text = "Please Speak";
+                speech.SetInputToDefaultAudioDevice();
+                RecognitionResult result = speech.Recognize();
+                richTextBox1.Text = result.Text;
+            }
+            catch (Exception)
+            {
+                richTextBox1.Text = "Error Try Again!";
+            }
         }
     }
 }

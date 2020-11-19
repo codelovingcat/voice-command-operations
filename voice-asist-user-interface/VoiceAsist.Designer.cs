@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -53,6 +54,7 @@
             this.textBoxProductName = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnListen = new System.Windows.Forms.Button();
             this.btnStartSpeak = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -65,7 +67,7 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.lblPleaseWait = new System.Windows.Forms.Label();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.btnListen = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -125,6 +127,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(139, 21);
             this.comboBox1.TabIndex = 21;
+            this.comboBox1.BackColorChanged += new System.EventHandler(this.comboBox1_BackColorChanged);
             // 
             // maskedTextBox1
             // 
@@ -134,6 +137,7 @@
             this.maskedTextBox1.Size = new System.Drawing.Size(139, 20);
             this.maskedTextBox1.TabIndex = 20;
             this.maskedTextBox1.ValidatingType = typeof(System.DateTime);
+            this.maskedTextBox1.BackColorChanged += new System.EventHandler(this.maskedTextBox1_BackColorChanged);
             // 
             // label11
             // 
@@ -311,6 +315,17 @@
             this.panel2.Size = new System.Drawing.Size(599, 100);
             this.panel2.TabIndex = 1;
             // 
+            // btnListen
+            // 
+            this.btnListen.Font = new System.Drawing.Font("Minion Pro SmBd", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnListen.Location = new System.Drawing.Point(508, 27);
+            this.btnListen.Name = "btnListen";
+            this.btnListen.Size = new System.Drawing.Size(79, 42);
+            this.btnListen.TabIndex = 5;
+            this.btnListen.Text = "Listen";
+            this.btnListen.UseVisualStyleBackColor = true;
+            this.btnListen.Click += new System.EventHandler(this.btnListen_Click);
+            // 
             // btnStartSpeak
             // 
             this.btnStartSpeak.Font = new System.Drawing.Font("Minion Pro SmBd", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -417,6 +432,7 @@
             this.lblPleaseWait.Size = new System.Drawing.Size(73, 13);
             this.lblPleaseWait.TabIndex = 23;
             this.lblPleaseWait.Text = "Please Wait...";
+            this.lblPleaseWait.TextChanged += new System.EventHandler(this.lblPleaseWait_TextChanged);
             // 
             // richTextBox1
             // 
@@ -428,16 +444,9 @@
             this.richTextBox1.Text = "";
             this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
-            // btnListen
+            // timer1
             // 
-            this.btnListen.Font = new System.Drawing.Font("Minion Pro SmBd", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnListen.Location = new System.Drawing.Point(508, 27);
-            this.btnListen.Name = "btnListen";
-            this.btnListen.Size = new System.Drawing.Size(79, 42);
-            this.btnListen.TabIndex = 5;
-            this.btnListen.Text = "Listen";
-            this.btnListen.UseVisualStyleBackColor = true;
-            this.btnListen.Click += new System.EventHandler(this.btnListen_Click);
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // VoiceAsist
             // 
@@ -506,6 +515,7 @@
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Button btnStartSpeak;
         private System.Windows.Forms.Button btnListen;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 
