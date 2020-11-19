@@ -15,3 +15,15 @@ D:\GitHub\voice-command-operations\voice-asist-user-interface\bin\Debug\EntityFr
 D:\GitHub\voice-command-operations\voice-asist-user-interface\bin\Debug\EntityFramework.xml
 D:\GitHub\voice-command-operations\voice-asist-user-interface\bin\Debug\EntityFramework.SqlServer.xml
 D:\GitHub\voice-command-operations\voice-asist-user-interface\obj\Debug\voice-asist-user-interface.csproj.CopyComplete
+D:\GitHub\voice-command-operations\voice-asist-user-interface\bin\Debug\yolov2-tiny-voc.cfg
+D:\GitHub\voice-command-operations\voice-asist-user-interface\bin\Debug\yolov2-tiny-voc.weights
+D:\GitHub\voice-command-operations\voice-asist-user-interface\bin\Debug\voc.names
+D:\GitHub\voice-command-operations\voice-asist-user-interface\bin\Debug\x64\opencv_world411.dll
+D:\GitHub\voice-command-operations\voice-asist-user-interface\bin\Debug\x64\yolo_cpp_dll_cpu.dll
+D:\GitHub\voice-command-operations\voice-asist-user-interface\bin\Debug\x64\yolo_cpp_dll_gpu.dll
+D:\GitHub\voice-command-operations\voice-asist-user-interface\bin\Debug\x64\pthreadVC2.dll
+D:\GitHub\voice-command-operations\voice-asist-user-interface\bin\Debug\x64\pthreadGC2.dll
+D:\GitHub\voice-command-operations\voice-asist-user-interface\bin\Debug\x64\msvcr100.dll
+D:\GitHub\voice-command-operations\voice-asist-user-interface\bin\Debug\Alturos.Yolo.dll
+D:\GitHub\voice-command-operations\voice-asist-user-interface\bin\Debug\Alturos.Yolo.xml
+D:\GitHub\voice-command-operations\voice-asist-user-interface\obj\Debug\voice_asist_user_interface.Object_Detection.resources

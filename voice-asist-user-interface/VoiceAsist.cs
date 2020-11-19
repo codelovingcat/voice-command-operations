@@ -220,7 +220,7 @@ namespace voice_asist_user_interface
         private void VoiceAsist_Load(object sender, EventArgs e)
         {
             enable();
-            timer1.Start();
+            //timer1.Start();
         }
 
         private void maskedTextBox1_BackColorChanged(object sender, EventArgs e)
@@ -261,6 +261,13 @@ namespace voice_asist_user_interface
             {
                 richTextBox1.Text = "Error Try Again!";
             }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Object_Detection object_Detection = new Object_Detection();
+            object_Detection.Show();
+            this.Hide();
         }
     }
 }

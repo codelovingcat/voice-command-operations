@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Alturos.Yolo</name>
+    </assembly>
+    <members>
+        <member name="M:Alturos.Yolo.ConfigurationDetector.Detect(System.String)">
+            <summary>
+            Automatict detect the yolo configuration on the given path
+            </summary>
+            <param name="path"></param>
+            <returns></returns>
+            <exception cref="T:System.IO.FileNotFoundException">Thrown when cannot found one of the required yolo files</exception>
+        </member>
+        <member name="M:Alturos.Yolo.ImageResizer.ResizeImage(System.Drawing.Image,System.Int32,System.Int32)">
+            <summary>
+            Resize the image to the specified width and height.
+            </summary>
+            <param name="image">The image to resize.</param>
+            <param name="width">The width to resize to.</param>
+            <param name="height">The height to resize to.</param>
+            <returns>The resized image.</returns>
+        </member>
+        <member name="M:Alturos.Yolo.YoloWrapper.#ctor(Alturos.Yolo.YoloConfiguration,System.Boolean)">
+            <summary>
+            Initialize Yolo
+            </summary>
+            <param name="yoloConfiguration"></param>
+            <param name="ignoreGpu">Disable automatic gpu detection</param>
+            <exception cref="T:System.NotSupportedException">Thrown when the process not run in 64bit</exception>
+            <exception cref="T:System.DllNotFoundException">Thrown when Microsoft Visual C++ 2017 Redistributable not available</exception>
+            <exception cref="T:System.IndexOutOfRangeException">Thrown when the gpu index is not valid</exception>
+        </member>
+        <member name="M:Alturos.Yolo.YoloWrapper.#ctor(System.String,System.String,System.String,System.Int32,System.Boolean)">
+            <summary>
+            Initialize Yolo
+            </summary>
+            <param name="configurationFilename">Yolo configuration (.cfg) file path</param>
+            <param name="weightsFilename">Yolo trainded data (.weights) file path</param>
+            <param name="namesFilename">Yolo object names (.names) file path</param>
+            <param name="gpu">Gpu Index if multiple graphic devices available</param>
+            <param name="ignoreGpu">Disable automatic gpu detection</param>
+            <exception cref="T:System.NotSupportedException">Thrown when the process not run in 64bit</exception>
+            <exception cref="T:System.DllNotFoundException">Thrown when Microsoft Visual C++ 2017 Redistributable not available</exception>
+            <exception cref="T:System.IndexOutOfRangeException">Thrown when the gpu index is not valid</exception>
+        </member>
+        <member name="M:Alturos.Yolo.YoloWrapper.Detect(System.String)">
+            <summary>
+            Detect objects on an image
+            </summary>
+            <param name="filepath"></param>
+            <returns></returns>
+            <exception cref="T:System.IO.FileNotFoundException">Thrown when the filepath is wrong</exception>
+        </member>
+        <member name="M:Alturos.Yolo.YoloWrapper.Detect(System.Byte[])">
+            <summary>
+            Detect objects on an image
+            </summary>
+            <param name="imageData"></param>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException">Thrown when the yolo_cpp dll is wrong compiled</exception>
+            <exception cref="T:System.Exception">Thrown when the byte array is not a valid image</exception>
+        </member>
+        <member name="M:Alturos.Yolo.YoloWrapper.Detect(System.IntPtr,System.Int32)">
+            <summary>
+            Detect objects on an image
+            </summary>
+            <param name="imagePtr"></param>
+            <param name="size"></param>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException">Thrown when the yolo_cpp dll is wrong compiled</exception>
+        </member>
+    </members>
+</doc>
